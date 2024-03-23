@@ -1,0 +1,55 @@
+@import "./cotton_candy.bundle.css";
+@import "./cherry.bundle.css";
+@import "./apricot.bundle.css";
+@import "./watermelon.bundle.css";
+
+.app-logo{
+    min-height: 50px !important;
+    width: auto !important;
+}
+.navbar{
+    height: 70px !important;
+}
+input#navbar-search.form-control{
+    border-radius: 8px !important;
+
+
+}
+.desk-sidebar .standard-sidebar-section .standard-sidebar-label{
+    display: none;
+}
+@media (min-width: 992px){
+    [data-page-route=Workspaces] .layout-main .layout-side-section{
+
+scrollbar-width: none;
+flex: 0 0 50px !important;
+margin-left: 5px;
+margin-right: 10px;
+
+transition: flex 0.3s ease-in-out;
+        }
+
+
+        [data-page-route=Workspaces] .standard-sidebar-item .sidebar-item-control .drop-icon{
+
+            display: none;
+        }
+        [data-page-route=Workspaces] .standard-sidebar-item:hover .sidebar-item-control .drop-icon{
+
+            display: block;
+        }
+
+    [data-page-route=Workspaces] .layout-main .layout-side-section:hover{
+
+
+
+flex: 0 0 16.66666667% !important;
+
+        }
+
+
+        [data-page-route=Workspaces] .standard-sidebar-item .item-anchor {
+
+            padding: 3px 0px 5px 0px !important;
+        }
+}
