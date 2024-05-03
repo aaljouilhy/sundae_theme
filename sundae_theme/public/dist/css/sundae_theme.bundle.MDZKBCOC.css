@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-3430-uEgN5KXxgZt5/18e6d24ae715/cotton_candy.bundle.css */
+/* ../../../../../tmp/tmp-3381-0HHFORr5Hzpt/18f3e82d0d68/cotton_candy.bundle.css */
 [data-theme=cotton_candy] {
   --gray-50: #E8F5FE;
   --gray-100: #D0E7FA;
@@ -162,7 +162,7 @@
   --indicator-dot-cyan: var(--bg-cyan);
 }
 
-/* ../../../../../tmp/tmp-3430-uEgN5KXxgZt5/18e6d24b0507/cherry.bundle.css */
+/* ../../../../../tmp/tmp-3381-0HHFORr5Hzpt/18f3e82d3bad/cherry.bundle.css */
 [data-theme=cherry] {
   --pink-50: #fff1f2;
   --pink-100: #ffe4e6;
@@ -341,7 +341,7 @@
   color: var(--pink-800);
 }
 
-/* ../../../../../tmp/tmp-3430-uEgN5KXxgZt5/18e6d24c2fae/apricot.bundle.css */
+/* ../../../../../tmp/tmp-3381-0HHFORr5Hzpt/18f3e82d45313/apricot.bundle.css */
 [data-theme=apricot] *::-webkit-scrollbar {
   width: 6px;
 }
@@ -403,7 +403,7 @@
   --control-bg: #fff;
   --control-bg-on-gray: #d4dcea;
   --disabled-control-bg: #f2f5fa;
-  --heading-color: #333;
+  --heading-color: #7c7b7b;
   --border-color:#e3e8f1;
   --avatar-frame-bg: #dde2ea;
   --margin-lg: 15px;
@@ -414,20 +414,20 @@
 }
 [data-theme=apricot] .awesomplete > ul > li:hover,
 .awesomplete > ul > li[aria-selected=true] {
-  background-color: #ffa00a;
+  background-color: #be9859;
   color: #fff;
 }
 [data-theme=apricot] [data-label="Create Workspace"] {
-  background-color: #ffa00a;
+  background-color: #be9859;
   color: #fff;
 }
 [data-theme=apricot] {
-  --background-color: #36414c;
-  --primary-color: #ffa00a;
+  --background-color: #7c7b7b;
+  --primary-color: #be9859;
   --secondary-color: #7574ff;
   --white-color: #ffffff;
   --black-color: #000000;
-  --gray-color: #888;
+  --gray-color: #7c7b7b;
   --page-head-height: 50px;
 }
 [data-theme=apricot] .btn-primary:active,
@@ -442,7 +442,7 @@
   border-radius: 8px !important;
 }
 [data-theme=apricot] .btn-primary:hover {
-  background-color: rgba(255, 120, 10, 0.93) !important;
+  background-color: rgba(167, 131, 102, 0.93) !important;
 }
 [data-theme=apricot] .page-head,
 [data-theme=apricot] .page-head .page-head-content {
@@ -562,7 +562,7 @@
   background-color: #f4f4f4;
 }
 
-/* ../../../../../tmp/tmp-3430-uEgN5KXxgZt5/18e6d24cf4f12/watermelon.bundle.css */
+/* ../../../../../tmp/tmp-3381-0HHFORr5Hzpt/18f3e82d5d617/watermelon.bundle.css */
 :root {
   --main-color: #691551;
   --second-color: #af3d8f;
@@ -784,7 +784,7 @@ h6.uppercase {
   background: var(--widget-bg);
 }
 
-/* ../../../../../tmp/tmp-3430-uEgN5KXxgZt5/sundae_theme/sundae_theme/public/css/sundae_theme.bundle.css */
+/* ../../../../../tmp/tmp-3381-0HHFORr5Hzpt/sundae_theme/sundae_theme/public/css/sundae_theme.bundle.css */
 .app-logo {
   min-height: 50px !important;
   width: auto !important;
@@ -802,8 +802,8 @@ input#navbar-search.form-control {
   [data-page-route=Workspaces] .layout-main .layout-side-section {
     scrollbar-width: none;
     flex: 0 0 50px !important;
-    margin-right: 5px;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
     transition: flex 0.3s ease-in-out;
   }
   [data-page-route=Workspaces] .standard-sidebar-item .sidebar-item-control .drop-icon {
@@ -819,4 +819,4 @@ input#navbar-search.form-control {
     padding: 3px 0px 5px 0px !important;
   }
 }
-/*# sourceMappingURL=sundae_theme.bundle.K6ZOADXC.css.map */
+/*# sourceMappingURL=sundae_theme.bundle.MDZKBCOC.css.map */

@@ -58,7 +58,7 @@
     --control-bg : #fff;
     --control-bg-on-gray: #d4dcea;
     --disabled-control-bg: #f2f5fa;
-    --heading-color: #333;
+    --heading-color: #7c7b7b;
     --border-color:#e3e8f1;
     --avatar-frame-bg: #dde2ea;
     --margin-lg: 15px;
@@ -123,12 +123,12 @@ input:focus{
 /* Dropdown List Hover */
 
 [data-theme=apricot] .awesomplete > ul > li:hover, .awesomplete > ul > li[aria-selected="true"]{
-    background-color: #ffa00a;
+    background-color: #be9859;
     color: #fff;
 }
 
 [data-theme=apricot] [data-label="Create Workspace"]{
-    background-color: #ffa00a;
+    background-color: #be9859;
     color: #fff;
 }
 
@@ -136,12 +136,12 @@ input:focus{
 
 /* Colours */
 [data-theme=apricot] {
-    --background-color: #36414c;
-    --primary-color: #ffa00a;
+    --background-color: #7c7b7b;
+    --primary-color: #be9859;
     --secondary-color: #7574ff;
     --white-color: #ffffff;
     --black-color: #000000;
-    --gray-color: #888;
+    --gray-color: #7c7b7b;
     --page-head-height: 50px;
     /* --navbar-height: 70px; */
 }
@@ -157,7 +157,7 @@ input:focus{
     border-radius: 8px !important;
 }
 [data-theme=apricot] .btn-primary:hover{
-    background-color: rgba(255, 120, 10, 0.93) !important;
+    background-color: rgba(167, 131, 102, 0.93) !important;
 }
 /* .btn-secondary{
     background-color: #606060 !important;

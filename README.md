@@ -55,3 +55,4 @@ Thank you for using Sundae-Theme for Frappe! We hope you enjoy the extra theme o
 
 MIT
 # contex_theme
+# sundae_theme
