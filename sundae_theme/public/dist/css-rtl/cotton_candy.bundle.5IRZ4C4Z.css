@@ -1,94 +1,80 @@
+/* ../../../../../tmp/tmp-17280-NENLxdbolRk2/sundae_theme/sundae_theme/public/css/cotton_candy.bundle.css */
 [data-theme=cotton_candy] {
-  --primary-color:#2f435a ; /* الأزرق الأساسي */
-    --gray-100: #f0dcdc;
-    --secondary-color: #0056b3; /* الأزرق الداكن */
-    --accent-color: #e9ecef; /* لون مميز فاتح */
-    --background-color: #f8f9fa; /* خلفية فاتحة جداً */
-    --white-color: #ffffff; /* الأبيض */
-    --black-color: #000000; /* الأسود */
-    --gray-color: #6c757d; /* الرمادي */
-    --page-head-height: 50px;
-    --navbar-bg-color: #d0B49f; /* لون شريط التنقل */
-    --sidebar-bg-color: #f8f9fa; /* خلفية الشريط الجانبي */
-    --sidebar-text-color: #007BFF; /* لون النص في الشريط الجانبي */
-    --sidebar-hover-bg-color: #e9ecef; /* لون الخلفية عند التمرير في الشريط الجانبي */
-    --btn-bg-color: #8c7e7e; /* لون الأزرار */
-    --btn-hover-bg-color: #0056b3; /* لون الأزرار عند التمرير */
-    --text-color: #000000; /* لون النص الأساسي */
-    --heading-color: #343a40; /* لون العناوين */
-    --input-bg-color: #e4eaea; /* خلفية المدخلات */
-    --input-text-color: #000000; /* لون النص الخاص بالمدخلات */
-
-    --input-border-color: #ced4da; /* حدود المدخلات */
-    --input-focus-bg-color: #e4eaea; /* خلفية المدخلات عند التركيز */
-    --input-focus-border-color: #007BFF; /* حدود المدخلات عند التركيز */
-    --scroll-bg: #f8f9fa; /* خلفية شريط التمرير */
-    --scroll-color: #007BFF; /* لون شريط التمرير */
+  --primary-color:#2f435a ;
+  --gray-100: #f0dcdc;
+  --secondary-color: #0056b3;
+  --accent-color: #e9ecef;
+  --background-color: #f8f9fa;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --gray-color: #6c757d;
+  --page-head-height: 50px;
+  --navbar-bg-color: #d0B49f;
+  --sidebar-bg-color: #f8f9fa;
+  --sidebar-text-color: #007BFF;
+  --sidebar-hover-bg-color: #e9ecef;
+  --btn-bg-color: #8c7e7e;
+  --btn-hover-bg-color: #0056b3;
+  --text-color: #000000;
+  --heading-color: #343a40;
+  --input-bg-color: #e4eaea;
+  --input-text-color: #000000;
+  --input-border-color: #ced4da;
+  --input-focus-bg-color: #e4eaea;
+  --input-focus-border-color: #007BFF;
+  --scroll-bg: #f8f9fa;
+  --scroll-color: #007BFF;
 }
-
 [data-theme=cotton_candy] * {
   scrollbar-width: thin;
   scrollbar-color: var(--scroll-color) var(--scroll-bg);
 }
-
 [data-theme=cotton_candy] *::-webkit-scrollbar {
   width: 6px;
 }
-
 [data-theme=cotton_candy] *::-webkit-scrollbar-track {
   background: var(--scroll-bg);
 }
-
 [data-theme=cotton_candy] *::-webkit-scrollbar-thumb {
   background-color: var(--scroll-color);
   border-radius: 20px;
 }
-
 [data-theme=cotton_candy] .navbar {
   background-color: var(--navbar-bg-color);
   color: var(--white-color);
 }
-
 [data-theme=cotton_candy] .sidebar {
   background-color: var(--sidebar-bg-color);
   color: var(--sidebar-text-color);
 }
-
 [data-theme=cotton_candy] .sidebar a {
   color: var(--sidebar-text-color);
 }
-
 [data-theme=cotton_candy] .sidebar a:hover {
   background-color: var(--sidebar-hover-bg-color);
   color: var(--sidebar-text-color);
 }
-
 [data-theme=cotton_candy] .btn-primary {
   background-color: var(--btn-bg-color);
   color: var(--white-color);
 }
-
 [data-theme=cotton_candy] .btn-primary:hover {
   background-color: var(--btn-hover-bg-color);
 }
-
 [data-theme=cotton_candy] .page-head,
 [data-theme=cotton_candy] .page-head .page-head-content {
   background-color: var(--primary-color);
   color: var(--white-color);
 }
-
 [data-theme=cotton_candy] .form-control {
   background-color: var(--input-bg-color);
   border: 1px solid #000000;
   color: var(--input-text-color);
 }
-
 [data-theme=cotton_candy] .form-control:focus {
   background-color: var(--input-focus-bg-color);
   border: 1px solid var(--input-focus-border-color);
 }
-
 [data-theme=cotton_candy] .head-title,
 [data-theme=cotton_candy] .form-section .section-head,
 [data-theme=cotton_candy] .form-dashboard-section .section-head,
@@ -102,42 +88,30 @@
   padding: var(--padding-sm);
 }
 [data-theme=cotton_candy] .page-title .title-area .title-text {
-  color: #ffffff !important; /* التأكيد على تطبيق اللون */
+  color: #ffffff !important;
   font-size: var(--text-2xl);
   font-weight: var(--weight-bold);
   letter-spacing: 0.01em;
   cursor: pointer;
   margin-bottom: 0px;
-  margin-left: var(--margin-sm);
+  margin-right: var(--margin-sm);
   max-width: 25vw;
 }
-
 [data-theme=cotton_candy] .page-title .sidebar-toggle-btn {
   display: flex;
-  margin-left: var(--margin-sm);
+  margin-right: var(--margin-sm);
   cursor: pointer;
   --icon-stroke: #ffffff;
 }
-
-[data-theme=cotton_candy] .btn.btn-default, 
-[data-theme=cotton_candy] div#driver-popover-item .driver-popover-footer button.btn-default  {
+[data-theme=cotton_candy] .btn.btn-default,
+[data-theme=cotton_candy] div#driver-popover-item .driver-popover-footer button.btn-default {
   background-color: #d0B49f;
   color: #000000;
 }
-
-
-[data-theme=cotton_candy] .indicator-pill.blue, 
-[data-theme=cotton_candy] .indicator-pill-right.blue, 
+[data-theme=cotton_candy] .indicator-pill.blue,
+[data-theme=cotton_candy] .indicator-pill-right.blue,
 [data-theme=cotton_candy] .indicator-pill-round.blue {
   background: #8c7e7e;
   color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
+/*# sourceMappingURL=cotton_candy.bundle.5IRZ4C4Z.css.map */

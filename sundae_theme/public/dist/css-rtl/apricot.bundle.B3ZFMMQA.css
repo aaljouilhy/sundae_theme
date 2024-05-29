@@ -1,0 +1,117 @@
+/* ../../../../../tmp/tmp-17280-NENLxdbolRk2/sundae_theme/sundae_theme/public/css/apricot.bundle.css */
+[data-theme=apricot] {
+  --primary-color:#154861 ;
+  --gray-100: #439dc9;
+  --secondary-color: #0056b3;
+  --accent-color: #e9ecef;
+  --background-color: #f8f9fa;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --gray-color: #6c757d;
+  --page-head-height: 50px;
+  --navbar-bg-color: #C3E0E5;
+  --sidebar-bg-color: #f8f9fa;
+  --sidebar-text-color: #007BFF;
+  --sidebar-hover-bg-color: #e9ecef;
+  --btn-bg-color: #6e7289;
+  --btn-hover-bg-color: #0056b3;
+  --text-color: #000000;
+  --heading-color: #343a40;
+  --input-bg-color: #e4eaea;
+  --input-text-color: #000000;
+  --input-border-color: #ced4da;
+  --input-focus-bg-color: #e4eaea;
+  --input-focus-border-color: #007BFF;
+  --scroll-bg: #f8f9fa;
+  --scroll-color: #007BFF;
+}
+[data-theme=apricot] * {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-color) var(--scroll-bg);
+}
+[data-theme=apricot] *::-webkit-scrollbar {
+  width: 6px;
+}
+[data-theme=apricot] *::-webkit-scrollbar-track {
+  background: var(--scroll-bg);
+}
+[data-theme=apricot] *::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-color);
+  border-radius: 20px;
+}
+[data-theme=apricot] .navbar {
+  background-color: var(--navbar-bg-color);
+  color: var(--white-color);
+}
+[data-theme=apricot] .sidebar {
+  background-color: var(--sidebar-bg-color);
+  color: var(--sidebar-text-color);
+}
+[data-theme=apricot] .sidebar a {
+  color: var(--sidebar-text-color);
+}
+[data-theme=apricot] .sidebar a:hover {
+  background-color: var(--sidebar-hover-bg-color);
+  color: var(--sidebar-text-color);
+}
+[data-theme=apricot] .btn-primary {
+  background-color: var(--btn-bg-color);
+  color: var(--white-color);
+}
+[data-theme=apricot] .btn-primary:hover {
+  background-color: var(--btn-hover-bg-color);
+}
+[data-theme=apricot] .page-head,
+[data-theme=apricot] .page-head .page-head-content {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+[data-theme=apricot] .form-control {
+  background-color: var(--input-bg-color);
+  border: 1px solid #000000;
+  color: var(--input-text-color);
+}
+[data-theme=apricot] .form-control:focus {
+  background-color: var(--input-focus-bg-color);
+  border: 1px solid var(--input-focus-border-color);
+}
+[data-theme=apricot] .head-title,
+[data-theme=apricot] .form-section .section-head,
+[data-theme=apricot] .form-dashboard-section .section-head,
+[data-theme=apricot] .comment-box .comment-input-header {
+  color: var(--heading-color);
+}
+[data-theme=apricot] .layout-main-section {
+  background-color: #C3E0E5;
+  box-shadow: none;
+  border-radius: var(--border-radius-lg);
+  padding: var(--padding-sm);
+}
+[data-theme=apricot] .page-title .title-area .title-text {
+  color: #ffefef !important;
+  font-size: var(--text-2xl);
+  font-weight: var(--weight-bold);
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  margin-bottom: 0px;
+  margin-right: var(--margin-sm);
+  max-width: 25vw;
+}
+[data-theme=apricot] .page-title .sidebar-toggle-btn {
+  display: flex;
+  margin-right: var(--margin-sm);
+  cursor: pointer;
+  --icon-stroke: #ffffff;
+}
+[data-theme=apricot] .btn.btn-default,
+[data-theme=apricot] div#driver-popover-item .driver-popover-footer button.btn-default {
+  background-color: #9292a3;
+  color: #000000;
+}
+[data-theme=apricot] .indicator-pill.blue,
+[data-theme=apricot] .indicator-pill-right.blue,
+[data-theme=apricot] .indicator-pill-round.blue {
+  background: #9292a3;
+  color: #ffffff;
+}
+/*# sourceMappingURL=apricot.bundle.B3ZFMMQA.css.map */
