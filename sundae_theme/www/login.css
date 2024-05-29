@@ -8,7 +8,8 @@ footer.web-footer{
 
 nav.navbar{
     
-    background: linear-gradient(358deg, #1D9AB4, #144660) !important;
+    background: #154861;
+    
     
 
 }
@@ -28,13 +29,14 @@ a.nav-link.btn-login-area{
 
 
 .btn-login{
-    background: linear-gradient(106deg, #1D9AB4, #144660) !important;
+    background: #154861;
+    
 }
 .for-login .page-card, .for-forgot .page-card, .for-login-with-email-link .page-card, .for-signup .page-card, .for-email-login .page-card {
     padding-top: 80px;
     padding-bottom: 80px;
     border-radius: 50px 50px 50px 50px;
-    background-color: #dbd6e4;
+    background-color: #C3E0E5;
    /* background: linear-gradient(263deg, #1D9AB4, #144660) !important;
    background-color: #8bb3c7; */
     box-shadow: var(--shadow-base);
@@ -108,10 +110,18 @@ img.app-logo {
 }
 
 
+
+
 .for-login .page-card-head img, .for-forgot .page-card-head img, .for-login-with-email-link .page-card-head img, .for-signup .page-card-head img, .for-email-login .page-card-head img {
     /* max-height: 70px; */
     margin-bottom: var(--margin-lg, 30px);
     max-height: 150px;
-   height: 150px;
-    width: 250px;
+    /* height: 150px; */
+    /* width: 250px; */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff5f5;
+    font-size: 0.875rem;
+    font-weight: 500;
 }
