@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-30349-f3DlmoV2TN8M/sundae_theme/sundae_theme/public/css/apricot.bundle.css */
+/* ../../../../../tmp/tmp-14707-mepZ6QU2mXJi/sundae_theme/sundae_theme/public/css/apricot.bundle.css */
 [data-theme=apricot] {
   --primary-color:#154861 ;
   --gray-100: #439dc9;
@@ -114,4 +114,16 @@
   background: #9292a3;
   color: #ffffff;
 }
-/*# sourceMappingURL=apricot.bundle.ODHX2KWT.css.map */
+[data-theme=apricot] .grid-heading-row {
+  border-bottom: 1px solid var(--table-border-color);
+  color: #000000;
+  background-color: var(--subtle-fg);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-regular);
+  letter-spacing: 0.02em;
+  height: 32px;
+  padding: 0 !important;
+  border-top-left-radius: var(--border-radius-md);
+  border-top-right-radius: var(--border-radius-md);
+}
+/*# sourceMappingURL=apricot.bundle.ZVKDFOPC.css.map */

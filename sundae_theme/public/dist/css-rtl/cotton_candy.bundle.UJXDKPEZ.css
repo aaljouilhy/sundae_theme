@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-30349-f4Tf5W1ySZ0h/sundae_theme/sundae_theme/public/css/cotton_candy.bundle.css */
+/* ../../../../../tmp/tmp-14707-mepZ6QU2mXJi/sundae_theme/sundae_theme/public/css/cotton_candy.bundle.css */
 [data-theme=cotton_candy] {
   --primary-color:#2f435a ;
   --gray-100: #f0dcdc;
@@ -94,12 +94,12 @@
   letter-spacing: 0.01em;
   cursor: pointer;
   margin-bottom: 0px;
-  margin-left: var(--margin-sm);
+  margin-right: var(--margin-sm);
   max-width: 25vw;
 }
 [data-theme=cotton_candy] .page-title .sidebar-toggle-btn {
   display: flex;
-  margin-left: var(--margin-sm);
+  margin-right: var(--margin-sm);
   cursor: pointer;
   --icon-stroke: #ffffff;
 }
@@ -114,4 +114,4 @@
   background: #8c7e7e;
   color: #ffffff;
 }
-/*# sourceMappingURL=cotton_candy.bundle.U6S4JKIS.css.map */
+/*# sourceMappingURL=cotton_candy.bundle.UJXDKPEZ.css.map */

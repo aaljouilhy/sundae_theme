@@ -131,3 +131,15 @@
     background: #9292a3;
     color: #ffffff;
 }
+[data-theme=apricot] .grid-heading-row {
+    border-bottom: 1px solid var(--table-border-color);
+    color: #000000;
+    background-color: var(--subtle-fg);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-regular);
+    letter-spacing: 0.02em;
+    height: 32px;
+    padding: 0 !important;
+    border-top-right-radius: var(--border-radius-md);
+    border-top-left-radius: var(--border-radius-md);
+}
