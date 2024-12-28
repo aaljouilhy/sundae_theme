@@ -3,12 +3,12 @@
 @import "./apricot.bundle.css";
 @import "./watermelon.bundle.css";
 
-.app-logo{
+/* .app-logo{
     min-height: 50px !important;
     width: auto !important;
-}
+} */
 .navbar{
-    height: 70px !important;
+    height: 48px; !important;
 }
 input#navbar-search.form-control{
     border-radius: 8px !important;
