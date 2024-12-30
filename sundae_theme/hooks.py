@@ -16,8 +16,14 @@ website_context = {
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "sundae_theme.bundle.css"
+#app_include_css = "sundae_theme.bundle.css"
+app_include_css = [
+    "/assets/sundae_theme/css/sundae_theme.bundle.css",
+    "/assets/sundae_theme/css/custom_fonts.css"  # أضف هذا السطر
+]
 app_include_js = ["sundae_theme.bundle.js"]
+
+
 
 # include js, css files in header of web template
 # web_include_css = "/assets/sundae_theme/css/sundae_theme.css"
